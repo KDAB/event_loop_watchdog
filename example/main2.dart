@@ -10,7 +10,7 @@
 /// Like main.dart, but illustrates how the user can pass a custom action callback
 
 import 'dart:async';
-import 'package:event_loop_watchdog/watchdog.dart';
+import 'package:event_loop_watchdog/event_loop_watchdog.dart';
 
 // This recursive fibonacci will block our main loop
 int fibonacci(int n) {

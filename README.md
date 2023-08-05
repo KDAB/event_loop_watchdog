@@ -20,7 +20,7 @@ The default usage requires a `debug` build. See the [AOT section](#aot) for `rel
 Simply create a `WatchDog` instance and start it.
 
 ```dart
-import 'package:event_loop_watchdog/watchdog.dart';
+import 'package:event_loop_watchdog/event_loop_watchdog.dart';
 
 void main() {
   final wdog =

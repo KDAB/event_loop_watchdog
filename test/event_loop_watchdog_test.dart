@@ -9,7 +9,7 @@
 
 import 'dart:isolate';
 
-import 'package:event_loop_watchdog/watchdog.dart';
+import 'package:event_loop_watchdog/event_loop_watchdog.dart';
 import 'package:test/test.dart';
 
 class CustomAction implements Action {

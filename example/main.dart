@@ -11,7 +11,7 @@
 /// will printed saying where it's hanging
 
 import 'dart:async';
-import 'package:event_loop_watchdog/watchdog.dart';
+import 'package:event_loop_watchdog/event_loop_watchdog.dart';
 
 int fibonacci(int n) {
   if (n == 1 || n == 2) return 1;
