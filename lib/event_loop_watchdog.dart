@@ -134,7 +134,7 @@ class WatchDog {
   SendPort? _sendPort;
 
   WatchDog(
-      {this.allowedEventLoopStallDuration = const Duration(milliseconds: 1000),
+      {this.allowedEventLoopStallDuration = const Duration(milliseconds: 300),
       this.pingFrequency = const Duration(milliseconds: 10),
       this.serviceUri = "",
       this.callbackAction}) {
